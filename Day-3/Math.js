@@ -10,7 +10,8 @@ console.log(Math.min(1, 2, 3, 4, 5)); // minimum value
 console.log(Math.random()); // random number between 0 and 1
 console.log(Math.random() * 10); // random number between 0 and 10
 
-const min =10;
-const max = 10;
+const min =1;
+const max = 20;
 
-Math.random();
+
+console.log(Math.floor(Math.random() * (max - min + 1) + min)); // random number between min and max    
